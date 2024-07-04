@@ -7,7 +7,7 @@ header {
 
 body {
     display: block;
-    font-family: "mond", serif;
+    font-family: "Eb Garamond", serif;
     color: white;
     margin: 0;
     background-color: black;
@@ -32,7 +32,7 @@ header a {
     background-repeat: no-repeat;
     background-position: right;
     line-height: 10px;
-    font-family: "mondregular", serif;
+    font-family: "Eb Garamond", serif;
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ header a {
 
 .div_p_doc_first {
     color: #F5F5F5;
-    font-family: "interregular", serif;
+    font-family: "inter", serif;
 }
 
 .second_part {
@@ -81,7 +81,7 @@ header a {
 
 .div_blockquote_quote {
     font-size: 24px;
-    font-family: "mond", serif;
+    font-family: "Eb Garamond", serif;
 }
 
 .p_start_second_part {
@@ -90,7 +90,7 @@ header a {
 
 ul {
     margin-right: 5px;
-    font-family: "interregular", serif;
+    font-family: "inter", serif;
 }
 
 .div_span_quote_two {
@@ -99,7 +99,7 @@ ul {
 
 .div_blockquote_quote_two {
     font-size: 24px;
-    font-family: "mond", serif;
+    font-family: "Eb Garamond", serif;
 }
 
 .p_start_third_part {
@@ -112,16 +112,16 @@ ul {
 }
 
 .name-one {
-    font-family: "interbold", serif;
+    font-family: "inter", serif;
 }
 
 .third-part_title-one {
-    font-family: "mond", serif;
+    font-family: "Eb Garamond", serif;
     font-size: 22px;
 }
 
 .third-part_p-one {
-    font-family: "interregular", serif;
+    font-family: "inter", serif;
     font-size: 16px;
 }
 
@@ -132,12 +132,12 @@ ul {
 }
 
 .third-part_title-three {
-    font-family: "mond", serif;
+    font-family: "Eb Garamond", serif;
     font-size: 22px;
 }
 
 .third-part_p-three {
-    font-family: "interregular",serif;
+    font-family: "inter",serif;
     font-size: 16px;
 }
 
@@ -153,7 +153,7 @@ ul {
 }
 
 .name-two {
-    font-family: "interbold",serif;
+    font-family: "inter",serif;
 }
 
 .Doc-two_third-part {
@@ -166,7 +166,7 @@ ul {
 }
 
 .third-part_title-two {
-    font-family: "mond",serif;
+    font-family: "Eb Garamond",serif;
     font-size: 22px;
 }
 
@@ -187,7 +187,7 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
-    font-family: "interregular",serif;
+    font-family: "inter",serif;
 }
 
 .VK {
