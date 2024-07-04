@@ -1,0 +1,27 @@
+@font-face {
+    src: url(../fonts/ebgaramondregular.ttf),
+    url(../fonts/ebgaramondregular.woff),
+    url(../fonts/ebgaramondregular.woff2);
+    font-family: "mondregular";
+}
+
+@font-face {
+    src: url(../fonts/interbold.ttf),
+    url(../fonts/interbold.woff),
+    url(../fonts/interbold.woff2);
+    font-family: "interbold";
+}
+
+@font-face {
+    src: url(../fonts/interregular.ttf),
+    url(../fonts/interregular.woff),
+    url(../fonts/interregular.woff2);
+    font-family: "interregular";
+}
+
+@font-face {
+    src: url(../fonts/ebgaramondmedium.ttf),
+    url(../fonts/ebgaramondmedium.woff),
+    url(../fonts/ebgaramondmedium.woff2);
+    font-family: "mond";
+}
