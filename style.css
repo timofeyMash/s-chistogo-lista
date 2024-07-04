@@ -1,0 +1,222 @@
+@font-face {
+    src: url(fonts/ebgaramondregular.ttf),
+    url(fonts/ebgaramondregular.woff),
+    url(fonts/ebgaramondregular.woff2);
+    font-family: "mondregular";
+}
+
+@font-face {
+    src: url(fonts/interbold.ttf),
+    url(fonts/interbold.woff),
+    url(fonts/interbold.woff2);
+    font-family: "interbold";
+}
+
+@font-face {
+    src: url(fonts/interregular.ttf),
+    url(fonts/interregular.woff),
+    url(fonts/interregular.woff2);
+    font-family: "interregular";
+}
+
+@font-face {
+    src: url(fonts/ebgaramondmedium.ttf),
+    url(fonts/ebgaramondmedium.woff),
+    url(fonts/ebgaramondmedium.woff2);
+    font-family: "mond";
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    display: block;
+    font-family: "mond", serif;
+    color: white;
+    margin: 0;
+    background-color: black;
+}
+
+.logo {
+    width: 78px;
+    height: 15px;
+    padding: 10px
+}
+
+header a {
+    color: white;
+}
+
+
+.main_div_Bigtitle {
+    color: white;
+    font-size: 72px;
+    background-image: url("images/cover.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    line-height: 10px;
+    font-family: "mondregular", serif;
+}
+
+.div_p_first {
+    margin-right: 250px;
+}
+
+.div_p_second {
+    margin-right: 30px;
+}
+
+.div_p_third {
+    margin-left: 130px;
+}
+
+.main_p_title {
+    display: inline;
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+}
+
+.main_p_data {
+    color: rgb(128, 128, 128);
+    font-size: 16px;
+}
+
+.p_title_data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_p_doc_first {
+    color: #F5F5F5;
+    font-family: "interregular", serif;
+}
+
+.second_part {
+    background-color: #FEE42A;
+    color: #131313;
+    padding: 20px;
+}
+
+.div_span_quote {
+    /*margin-left: 5px;*/
+}
+
+.div_blockquote_quote {
+    font-size: 24px;
+    font-family: "mond", serif;
+}
+
+.p_start_second_part {
+    font-size: 19px;
+}
+
+ul {
+    margin-right: 5px;
+    font-family: "interregular", serif;
+}
+
+.div_span_quote_two {
+    margin-left: 20px;
+}
+
+.div_blockquote_quote_two {
+    font-size: 24px;
+    font-family: "mond", serif;
+}
+
+.p_start_third_part {
+    font-size: 19px;
+}
+
+.polyarinov {
+    width: 100px;
+    height: 100px;
+}
+
+.name-one {
+    font-family: "interbold", serif;
+}
+
+.third-part_title-one {
+    font-family: "mond", serif;
+    font-size: 22px;
+}
+
+.third-part_p-one {
+    font-family: "interregular", serif;
+    font-size: 16px;
+}
+
+.Doc-one_third-part {
+    background-color: #343434;
+    border-radius: 30px;
+    padding: 20px
+}
+
+.third-part_title-three {
+    font-family: "mond", serif;
+    font-size: 22px;
+}
+
+.third-part_p-three {
+    font-family: "interregular",serif;
+    font-size: 16px;
+}
+
+.Doc-third_third-part {
+    background-color: #343434;
+    border-radius: 30px;
+    padding: 20px
+}
+
+.bunin {
+    width: 100px;
+    height: 100px;
+}
+
+.name-two {
+    font-family: "interbold",serif;
+}
+
+.Doc-two_third-part {
+    background-color: #FEE42A;
+    border-radius: 30px;
+    padding: 20px;
+    color: black;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.third-part_title-two {
+    font-family: "mond",serif;
+    font-size: 22px;
+}
+
+.third_part {
+    padding: 10px
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 305px;
+    height: 62px;
+    border-top: 1px solid #FEE42A;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-family: "interregular",serif;
+}
+
+.VK {
+    margin-left: 125px;
+    margin-right: 16px;
+}
+
