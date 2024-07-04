@@ -1,6 +1,5 @@
 
 
-
 header {
     display: flex;
     justify-content: space-between;
@@ -34,6 +33,7 @@ header a {
     background-position: right;
     line-height: 10px;
     font-family: "mondregular", serif;
+    text-align: center;
 }
 
 .div_p_first {
