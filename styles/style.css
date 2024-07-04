@@ -7,7 +7,7 @@ header {
 
 body {
     display: block;
-    font-family: "Eb Garamond", serif;
+    font-family: "EB Garamond", serif;
     color: white;
     margin: 0;
     background-color: black;
@@ -32,7 +32,7 @@ header a {
     background-repeat: no-repeat;
     background-position: right;
     line-height: 10px;
-    font-family: "Eb Garamond", serif;
+    font-family: "EB Garamond", serif;
     text-align: center;
 }
 
@@ -81,7 +81,7 @@ header a {
 
 .div_blockquote_quote {
     font-size: 24px;
-    font-family: "Eb Garamond", serif;
+    font-family: "EB Garamond", serif;
 }
 
 .p_start_second_part {
@@ -99,7 +99,7 @@ ul {
 
 .div_blockquote_quote_two {
     font-size: 24px;
-    font-family: "Eb Garamond", serif;
+    font-family: "EB Garamond", serif;
 }
 
 .p_start_third_part {
@@ -116,7 +116,7 @@ ul {
 }
 
 .third-part_title-one {
-    font-family: "Eb Garamond", serif;
+    font-family: "EB Garamond", serif;
     font-size: 22px;
 }
 
@@ -132,7 +132,7 @@ ul {
 }
 
 .third-part_title-three {
-    font-family: "Eb Garamond", serif;
+    font-family: "EB Garamond", serif;
     font-size: 22px;
 }
 
@@ -166,7 +166,7 @@ ul {
 }
 
 .third-part_title-two {
-    font-family: "Eb Garamond",serif;
+    font-family: "EB Garamond",serif;
     font-size: 22px;
 }
 
