@@ -9,12 +9,12 @@
 }
 
 @font-face {
-    src: url(interbold.ttf),
-    url(interbold.woff),
-    url(interbold.woff2),
-    url(interregular.ttf),
+    src: url(interregular.ttf),
     url(interregular.woff),
-    url(interregular.woff2);
+    url(interregular.woff2),
+    url(interbold.ttf),
+    url(interbold.woff),
+    url(interbold.woff2);
     font-family: "inter";
 }
 

@@ -1,162 +1,139 @@
-
-
-header {
-    display: flex;
-    justify-content: space-between;
-}
-
 body {
     display: block;
-    font-family: "Inter, EB Garamond";
+    font-family: "Inter";
     color: white;
-    margin: 0;
     background-color: black;
 }
 
-.logo {
+.font-family_secondary {
+    font-family: "EB Garamond";
+}
+
+.intro {
+    padding: 20px;
+    padding-top: 0;
+}
+
+
+.header_logo {
     width: 78px;
-    height: 15px;
-    padding: 10px
+    height: 16px;
+}
+
+.header_menu-list {
+    list-style-type: none;
+    line-height: 20px;
 }
 
 header a {
     color: white;
 }
 
-
-.main_div_Bigtitle {
-    color: white;
-    font-size: 72px;
-    background-image: url("../images/cover.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    line-height: 10px;
-    font-family: "Inter, EB Garamond";
-    text-align: center;
-}
-
-.div_p_first {
-    margin-right: 250px;
-}
-
-.div_p_second {
-    margin-right: 30px;
-}
-
-.div_p_third {
-    margin-left: 130px;
-}
-
-.main_p_title {
-    display: inline;
-    font-size: 16px;
-    color: rgb(128, 128, 128);
-}
-
-.main_p_data {
-    color: rgb(128, 128, 128);
-    font-size: 16px;
-}
-
-.p_title_data {
+header {
+    padding: 24px 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.div_p_doc_first {
-    color: #F5F5F5;
-    font-family: "Inter, EB Garamond";
+.header_menu-item{
+    margin-bottom: 12px;
+    text-underline-offset: 4px;
 }
 
-.second_part {
+.header_menu-item:last-child{
+    margin-bottom: 0;
+}
+
+
+.cover {
+    color: white;
+    font-size: 72px;
+    background-image: url("../images/cover.svg");
+    background-size: 95% auto;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 22px;
+    line-height: 100%;
+    padding:  0 24px 0 20px;
+    margin-top: 7px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.intro_title {
+    display: inline;
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+    line-height: 120%;
+}
+
+.intro_date {
+    color: rgb(128, 128, 128);
+    font-size: 16px;
+}
+
+.intro_heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    margin-top: 6px;
+}
+
+.intro_main-text {
+    color: #F5F5F5;
+    margin-bottom: 24px;
+    line-height: 22px;
+}
+
+.indent-p {
+    margin-top: 24px;
+}
+
+.reasons {
     background-color: #FEE42A;
     color: #131313;
     padding: 20px;
 }
 
-.div_span_quote {
-    /*margin-left: 5px;*/
+.accent-span {
+    margin-left: 85px;
 }
 
-.div_blockquote_quote {
-    font-size: 24px;
-    font-family: "Inter, EB Garamond";
+.content-section_subtitle {
+    font-size: 28px;
+    line-height: 115%;
+    margin-top: 20px;
 }
 
-.p_start_second_part {
-    font-size: 19px;
+.content-section_introduction {
+    font-size: 20px;
+    margin: 32px 0;
+    line-height: 27px;
 }
 
-ul {
-    margin-right: 5px;
-    font-family: "Inter, EB Garamond";
-}
 
-.div_span_quote_two {
-    margin-left: 20px;
-}
-
-.div_blockquote_quote_two {
-    font-size: 24px;
-    font-family: "Inter, EB Garamond";
-}
-
-.p_start_third_part {
-    font-size: 19px;
-}
-
-.polyarinov {
-    width: 100px;
-    height: 100px;
-}
-
-.name-one {
-    font-family: "Inter, EB Garamond";
-}
-
-.third-part_title-one {
-    font-family: "Inter, EB Garamond";
+.card_title {
     font-size: 22px;
 }
 
-.third-part_p-one {
-    font-family: "Inter, EB Garamond";
-    font-size: 16px;
+.card_author-name {
+    font-size: 20px;
 }
 
-.Doc-one_third-part {
+.card_theme_dark {
     background-color: #343434;
     border-radius: 30px;
     padding: 20px
 }
 
-.third-part_title-three {
-    font-family: "Inter, EB Garamond";
-    font-size: 22px;
-}
-
-.third-part_p-three {
-    font-family: "Inter, EB Garamond";
-    font-size: 16px;
-}
-
-.Doc-third_third-part {
-    background-color: #343434;
-    border-radius: 30px;
-    padding: 20px
-}
-
-.bunin {
-    width: 100px;
-    height: 100px;
-}
-
-.name-two {
-    font-family: "Inter, EB Garamond";
-}
-
-.Doc-two_third-part {
+.card_theme_bright {
     background-color: #FEE42A;
     border-radius: 30px;
     padding: 20px;
@@ -165,33 +142,42 @@ ul {
     margin-bottom: 32px;
 }
 
-.third-part_title-two {
-    font-family: "Inter, EB Garamond";
-    font-size: 22px;
+.card_author-photo {
+    width: 100px;
+    height: 100px;
 }
 
-.third_part {
-    padding: 10px
+.how-to {
+    padding: 20px;
+    padding-bottom: 60px;
 }
 
 footer {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    width: 305px;
-    height: 62px;
+    width: 315px;
     border-top: 1px solid #FEE42A;
-    padding: 10px;
+    padding: 20px;
 }
 
 footer a {
     color: white;
     text-decoration: none;
-    font-family: "Inter, EB Garamond";
+}
+
+li {
+    margin-bottom: 16px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.content-section_list-accent {
+    margin-top: 32px;
 }
 
 .VK {
-    margin-left: 125px;
     margin-right: 16px;
 }
-
