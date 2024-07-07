@@ -35,12 +35,13 @@ header {
     justify-content: space-between;
 }
 
-.header_menu-item{
+.header_menu-item {
     margin-bottom: 12px;
     text-underline-offset: 4px;
+    padding-left: 20px;
 }
 
-.header_menu-item:last-child{
+.header_menu-item:last-child {
     margin-bottom: 0;
 }
 
@@ -57,7 +58,7 @@ header {
     margin-top: 7px;
 }
 
-.text-left{
+.text-left {
     padding-left: 20px;
 }
 
@@ -106,35 +107,60 @@ header {
     padding: 20px;
 }
 
-.accent-span {
-    margin-left: 85px;
+.title-span {
+    margin-left: 76px;
+}
+
+.title-span-end {
+    margin-left: 92px;
 }
 
 .content-section_subtitle {
     font-size: 28px;
     line-height: 115%;
     margin-top: 20px;
+    font-weight: 500;
 }
 
 .content-section_introduction {
     font-size: 20px;
     margin: 32px 0;
     line-height: 27px;
+    font-weight: normal;
 }
 
 
 .card_title {
     font-size: 22px;
+    line-height: 135%;
+    margin: 8px 0;
+    font-weight: 500;
+}
+
+.card_title-bright {
+    font-size: 22px;
+    line-height: 135%;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.card_text {
+    line-height: 21.6px;
+    font-weight: normal;
 }
 
 .card_author-name {
-    font-size: 20px;
+    font-size: 16px;
+    /*line-height: 135%;*/
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 .card_theme_dark {
     background-color: #343434;
     border-radius: 30px;
-    padding: 20px
+    padding: 20px;
+    margin-top: 8px;
 }
 
 .card_theme_bright {
@@ -144,6 +170,7 @@ header {
     color: black;
     margin-top: 32px;
     margin-bottom: 32px;
+    padding-top: 20px;
 }
 
 .card_author-photo {
@@ -160,7 +187,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 315px;
     border-top: 1px solid #FEE42A;
     padding: 20px;
 }
@@ -170,18 +196,28 @@ footer a {
     text-decoration: none;
 }
 
-li {
-    margin-bottom: 16px;
+.content-section_list {
+    padding-left: 16px;
+    line-height: 21.6px;
+    font-size: 16px;
 }
 
-ul {
-    padding-left: 20px;
-}
-
-.content-section_list-accent {
+.content-section_list-item:first-child {
     margin-top: 32px;
 }
 
+.content-section_list-item {
+    margin-bottom: 16px;
+}
+
+.content-section_list-accent {
+    font-weight: bold;
+}
+
 .VK {
-    margin-right: 16px;
+    margin-right: 13px;
+}
+
+.social {
+    font-size: 14px;
 }
