@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,7 @@
   <a href="#"><img src="images/logo.svg" class="header-logo" alt="VERSTKA"/></a>
   <nav>
     <ul class="header-menu-list">
-      <li class="header-menu-item">Главная</li>
+      <li class="header-menu-item"><a href="#" class="header-menu-item-active">Главная</a></li>
       <li class="header-menu-item"><a href="#">О нас</a></li>
       <li class="header-menu-item"><a href="#">Контакты</a></li>
     </ul>
@@ -21,9 +21,11 @@
 </header>
 <main>
   <div class="cover">
-    <p class="text-left font-family-secondary">С</p>
-    <p class="text-center font-family-secondary">чистого</p>
-    <p class="text-right font-family-secondary">листа</p>
+    <h1 class="cover-title">
+      <span class="text-left font-family-secondary">С</span>
+      <span class="text-center font-family-secondary">чистого</span>
+      <span class="text-right font-family-secondary">листа</span>
+    </h1>
   </div>
   <section class="intro">
     <div class="intro-heading">
@@ -38,17 +40,17 @@
         10 минут ходила туда-сюда по комнате, протёрла пыль на столе и заварила чай ещё раз, потому что он
         остыл. Всё это время с монитора на неё смотрел чистый лист.
       </p>
-      <p class="indent-p">
+      <p>
         Прокрастинировать перед тем, как начать что-то делать (особенно что-то новое) — нормальная реакция
         мозга. Разберёмся, почему это происходит.
       </p>
     </div>
   </section>
   <section class="reasons">
-    <p class="content-section-subtitle font-family-secondary">
+    <h2 class="content-section-subtitle font-family-secondary">
       <span class="title-span">Почему чистый лист</span>
-      — такой cтрашный?
-    </p>
+      <span class="dash">—</span> такой cтрашный?
+    </h2>
     <p class="content-section-introduction">
       Сам по себе чистый лист, конечно, не страшный. Боимся мы чаще всего объёма
       работы, которую предстоит сделать. Усилия, той точки, которую нужно преодолеть, чтобы переключить мозг из
@@ -57,26 +59,26 @@
     </p>
     <ul class="content-section-list">
       <li class="content-section-list-item">
-        <span class="content-section-list-accent">Неуверенность в результате</span>. И в том, что его вообще
+        <span class="content-section-list-accent">Неуверенность в результате.</span> И в том, что его вообще
         можно достичь. Ведь как можно быть уверенным, что проводишь всю работу не впустую? Что доведёшь дело до
         конца? А тут, пока не начал, не надо и заканчивать.
       </li>
-      <li class="content-section-list-item"><span class="content-section-list-accent">Страх критики</span>. Если
+      <li class="content-section-list-item"><span class="content-section-list-accent">Страх критики.</span> Если
         работу будет кто-то оценивать, то уже на самых ранних этапах мы смотрим на
         неё глазами этого человека. Представляем, какие недостатки в ней можно найти. После этого желание что-то
         делать сразу пропадает.
       </li>
-      <li class="content-section-list-item"><span class="content-section-list-accent">Перфекционизм</span>. Когда
+      <li class="content-section-list-item"><span class="content-section-list-accent">Перфекционизм.</span> Когда
         кажется, что работа не будет сделана идеально, будто бы нет смысла её и
         начинать. В такие моменты мы можем забыть, что с первого раза что-то получается довольно редко.
       </li>
-      <li class="content-section-list-item"><span class="content-section-list-accent">Отсутствие мотивации</span>.
+      <li class="content-section-list-item"><span class="content-section-list-accent">Отсутствие мотивации.</span>
         Как долгосрочной, так и краткосрочной. Например, если дедлайн только через
         неделю, можно посидеть пару часов, рассматривая узоры на обоях, — времени ещё вагон. Или прогуливать
         уроки химии в школе, потому что вроде как и хочется стать нейрохирургом, но в кино на «Мстителей»
         хочется ещё больше.
       </li>
-      <li class="content-section-list-item"><span class="content-section-list-accent">Недостаток информации</span>.
+      <li class="content-section-list-item"><span class="content-section-list-accent">Недостаток информации.</span>
         Начинать что-то особенно сложно, если вы новичок в теме и только
         разбираетесь, что к чему. Вам может казаться, что каждая строчка — глупость, и вообще всё, что вы
         сделаете, — будет неправильно.
@@ -84,39 +86,37 @@
     </ul>
   </section>
   <section class="how-to">
-    <p class="content-section-subtitle font-family-secondary">
-      <span class="title-span-end">Как всё-таки начать</span>
-      <br/>
-      что-то делать
-    </p>
+    <h2 class="content-section-subtitle font-family-secondary">
+      <span class="title-span-end">Как всё-таки начать что-то делать</span>
+    </h2>
     <p class="content-section-introduction">
       Чаще всего страх чистого листа появляется не из-за чего-то одного, а из-за совокупности нескольких факторов.
       Вот что может помочь:
     </p>
-    <div class="card-theme-dark">
-      <img src="images/polyarinov.png" class="card-author-photo" alt="polyarinov"/>
+    <article class="card-theme-dark">
+      <img src="images/polyarinov.png" class="card-author-photo" alt="Поляринов"/>
       <p class="card-author-name">Алексей Поляринов</p>
-      <p class="card-title font-family-secondary">Начать любыми словами</p>
+      <h2 class="card-title font-family-secondary">Начать любыми словами</h2>
       <p class="card-text">
         Любыми — без шуток. Если не верите нам, посмотрите, например, чем открывается
         эссе Алексея Поляринова «Чарли Кауфман: расширение пространства». Можно и менее радикально. Главное,
         чтобы пустую страницу начали заполнять символы. Получится своеобразная ловушка для мозга: он видит, что
         вы уже начали что- то делать, и ему становится легче войти в состояние потока.
       </p>
-    </div>
-    <div class="card-theme-bright">
-      <p class="card-title-bright font-family-secondary">Поставить перед собой рамку для фотографии</p>
+    </article>
+    <article class="card-theme-bright">
+      <h2 class="card-title-bright font-family-secondary">Поставить перед собой рамку для фотографии</h2>
       <p class="card-text">
         Самую обычную: 10 на 15 сантиметров. Уже от одного ощущения, что предстоит
         работа над большой и сложной задачей, может пропасть всякое желание за неё браться. В такие моменты
         хорошо помогает загнать задачу в рамки — в прямом смысле. Сосредоточьтесь на том, чтобы заполнить только
         пространство 10х15 сантиметров. Что дальше — пока неважно.
       </p>
-    </div>
-    <div class="card-theme-dark">
-      <img src="images/bunin.png" class="card-author-photo" alt="bunin"/>
+    </article>
+    <article class="card-theme-dark">
+      <img src="images/bunin.png" class="card-author-photo" alt="Бунин"/>
       <p class="card-author-name">Иван Бунин</p>
-      <p class="card-title font-family-secondary">Сделать из задачи рутину</p>
+      <h2 class="card-title font-family-secondary">Сделать из задачи рутину</h2>
       <p class="card-text">
         «Писать стихи нужно каждый день, подобно тому как скрипач или пианист
         непременно должен каждый день без пропусков по нескольку часов играть на своём инструменте. В противном
@@ -124,7 +124,7 @@
         чём писать? О чём угодно. Если у вас в данное время нет никакой темы, идеи, то пишите просто обо всём,
         что увидите», — такой совет своему приятелю дал Иван Бунин. Нет повода ему не следовать.
       </p>
-    </div>
+    </article>
   </section>
 </main>
 <footer>
